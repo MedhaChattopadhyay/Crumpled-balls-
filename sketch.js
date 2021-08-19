@@ -27,7 +27,7 @@ dustbin=new Dustbin(1200,650)
 
 function draw() {
   rectMode(CENTER);
-  background(0);
+  background("white");
   paper.display();
   dustbin.display();
   ground.display();
